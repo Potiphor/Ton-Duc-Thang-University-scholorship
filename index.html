@@ -97,7 +97,7 @@ img.emoji {
 						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
 						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;					
 						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
-						sl = nl[0];									
+						sl = nl[0];								
 						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}															
 						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);					
 						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
